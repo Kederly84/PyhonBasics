@@ -17,19 +17,24 @@ else:
 
 # задание №2
 
-numbers = list(range(10))
-cube_numbers = []
-seven_numbers =[]
-for i in range(len(numbers)):
-    if numbers[i] % 2 != 0:
-        number = numbers[i] ** 3
-        cube_numbers.append(number)
-
-for x in range(len(cube_numbers)):
-
-
-
-print(cube_numbers)
+numbers = list(range(1, 101, 2))
+print(numbers)
+# cube_numbers = []
+# seven_numbers = []
+# for i in range(len(numbers)):
+#     if numbers[i] % 2 != 0:
+#         number = numbers[i] ** 3
+#         cube_numbers.append(number)
+#
+# print(cube_numbers)
+# #numbr = 0
+#
+# for x in range(len(cube_numbers)):
+#     operand = list(str(cube_numbers[x]))
+#     for y in range(len(operand)):
+#         numbr = numbr + int(operand[y])
+#         seven_numbers.append(numbr)
+# print(seven_numbers)
 
 
 
