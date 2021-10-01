@@ -10,6 +10,7 @@ seconds = duration - days * 86400 - hours * 3600 - minutes * 60 # Вычисля
 
 # Вывод информации в зависимости от данных, введенных пользователем
 # без лишних сущностей
+
 if duration >= 86400:
     print('Вы ввели', days, 'дн', hours, 'час', minutes, 'мин', seconds, 'сек')
 elif 3600 <= duration < 86400:
